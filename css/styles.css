@@ -71,6 +71,7 @@ html{
     height: 65px;
     background: #fff;
     position: fixed;
+    border: 1px solid var(--colorprinciapl);
 }
 .container{
     max-width: 1100px;
@@ -94,7 +95,8 @@ html{
     display: block;
     padding: 0px 20px;
     text-decoration: none;
-    color: #6d6d6d;
+    color: var(--colorprinciapl);
+    font-weight: bold;
     transition: all 500ms ease;
 }
 .menu a:hover{
@@ -113,6 +115,17 @@ html{
     display: block;
 }
 
-
-
+/* main */
+.historia {
+    display: grid;
+    grid-template-rows: repeat(3,1fr);
+  
+}
+.historia p{
+    grid-row: 3/4;
+}
+.historia h1{
+    grid-row: 2/3;
+    text-align: center;
+}
 

@@ -1,0 +1,58 @@
+/* ------------------------- */
+/* Estilos Generales */
+/* ------------------------- */
+
+body {
+     background-image: linear-gradient(135deg, #fdfcfb 0%, #e2d1c3 100%);
+}
+.galeria img {
+     box-shadow: 0 8px 10px -4px rgba(0,0,0,.6);
+     border-radius: 15px;
+}
+
+.materialbox-caption {
+     bottom: 30px;
+     right: 0;
+     width: 40%;
+     height: auto;
+     padding: 10px;
+     margin: auto;
+     background: #000;
+     box-shadow: 5px 5px #fff;
+     font-size: 20px;
+     color: #fff;
+     line-height: 28px;
+}
+
+.galeria .col {
+     margin-bottom: 20px;
+}
+
+@media screen and (max-width: 600px){
+     .materialbox-caption {
+          width: 90%;
+     }
+}
+
+@media screen and (max-width: 992px){
+     .materialbox-caption {
+          width: 70%;
+     }
+}
+
+
+
+
+.boton{
+   
+        color: #fff;
+        padding: 1rem 3rem 1rem 3rem;    /* hago ese cuadro azul  */
+        margin-top: 1rem;
+        margin-bottom: 8px;
+        font-size: 20px;
+    
+         /* hacer resaltar mas el texto */
+        border-radius: .5rem; /* para redondear las esquinas del boton */ /* agrandar el tamaño del boton */
+        text-align: center;
+        border: none;
+}
