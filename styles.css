@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+:root{
+        --blanco:#DEDDDD;
+        --fuentetitulo:font-family: 'Atkinson Hyperlegible', sans-serif;
+        font-family: 'Georama', sans-serif;
+        font-family: 'PT Sans', sans-serif;
+        --colorprinciapl:#E82F2F;
+        --grisclaro:#DFE9F3;
+        --fuentetexto: 'Montserrat', sans-serif;
+
+}
+html{
+    box-sizing: border-box;
+    font-size: 62.5%;
+    padding: 0;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+  }
+  body{
+      font-family: var(--fuenteParrafos);
+      font-size: 1.6rem;
+      line-height: 2;
+      
+  }
+ 
+  /* globales */
+  .contenedor{
+      max-width: 120rem;
+      width: 90%;
+      margin: 0 auto;
+  }
+  a{
+      text-decoration: none;
+  }
+  h1,h2,h3,h4{
+      font-family: var(--fuentetitulo);
+  }
+  h1{
+      font-size: 4.8rem;
+  }
+  h2{
+      font-size: 4rem;
+  }
+  h3{
+      font-size: 3.2rem;
+  }
+  h4{
+      font-size: 2.8rem;
+  }
+  img{
+   width: 100%;
+  }
+  p{
+      font-family: var(--fuentetexto);
+  }
+.sombra{
+    -webkit-box-shadow: 0px 5px 15px 0px rgba(112,112,112,1);
+    -moz-box-shadow: 0px 5px 15px 0px rgba(112,112,112,1);
+    box-shadow: 0px 5px 15px 0px rgba(112,112,112,1);
+}
+  
+  
+.header{
+    width: 100%;
+    height: 65px;
+    background: #fff;
+    position: fixed;
+}
+.container{
+    max-width: 1100px;
+    margin: auto;
+}
+.logo img{
+    float: left;
+    line-height: 65px;
+    height: 50px;
+    width: 50px;
+}
+.menu{
+    float: right;
+    line-height: 65px;
+}
+.menu ul{
+    display: flex;
+    list-style: none;
+}
+.menu a{
+    display: block;
+    padding: 0px 20px;
+    text-decoration: none;
+    color: #6d6d6d;
+    transition: all 500ms ease;
+}
+.menu a:hover{
+    background: var(--colorprinciapl);
+    color: #fff;
+}
+.menu .submenu{
+    background: #fff;
+    box-shadow: 3px 10px 10px rgba(0,0,0,0.2);
+    display: none;
+}
+.menu .submenu li a{
+    line-height: 50px;
+}
+.menu ul li a:hover + ul, .menu .submenu:hover{
+    display: block;
+}
+
+
+
+
