@@ -8,6 +8,7 @@ body {
 .galeria img {
      box-shadow: 0 8px 10px -4px rgba(0,0,0,.6);
      border-radius: 15px;
+     
 }
 
 .materialbox-caption {
@@ -39,10 +40,6 @@ body {
           width: 70%;
      }
 }
-
-
-
-
 .boton{
    
         color: #fff;
@@ -50,8 +47,6 @@ body {
         margin-top: 1rem;
         margin-bottom: 8px;
         font-size: 20px;
-    
-         /* hacer resaltar mas el texto */
         border-radius: .5rem; /* para redondear las esquinas del boton */ /* agrandar el tamaño del boton */
         text-align: center;
         border: none;

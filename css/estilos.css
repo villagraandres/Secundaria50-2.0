@@ -129,6 +129,8 @@ html{
   
  .presentacion{
     background-image:url(../imagenes/hero.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
     height: 450px;
    margin-bottom: 10rem;
 }
@@ -220,6 +222,3 @@ color: var(--blanco);
 grid-column: 2/3;
 color: #fff;
 }
-   
-
-
