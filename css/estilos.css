@@ -10,7 +10,7 @@
         font-family: 'Georama', sans-serif;
         font-family: 'PT Sans', sans-serif;
         --colorprinciapl:#E82F2F;
-        --grisclaro:#DFE9F3;
+        --grisclaro:#dfe9f3;
         --fuentetexto: 'Montserrat', sans-serif;
 
 }
@@ -145,6 +145,14 @@ html{
     align-items: center;
     justify-content: center;
 }
+.presentacion__contacto{
+    background-image:url(../imagenes/nuestrahistoria.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 450px;
+   margin-bottom: 10rem;
+}
+
 .contenido__presentacion h2,
 .contenido__presentacion h3{
 color: var(--blanco);
@@ -227,4 +235,27 @@ color: var(--blanco);
 .direccion{
 grid-column: 2/3;
 color: #fff;
+}
+.contacto__info{
+    max-width: 90%;
+    margin: 0 auto;
+  text-align: center;
+}
+.mapa{
+    margin-top: 100px;
+    margin-top: 10px;
+}
+ iframe{
+    width: 100%;
+   height:400px ;
+ 
+}
+.ubicacion{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 100px;
+    background-color:#bec5cc;
+}
+.ubicacion h2{
+text-align: center;
 }
