@@ -157,6 +157,12 @@ color: var(--blanco);
      max-width: 1300px;
      margin: auto;
      padding: 60px;
+     text-align: justify;
+ }
+ @media(min-width: 768px){
+     .contenedor{
+         text-align:start;
+     }
  }
  .contenedor__titulo{
      margin-bottom: 20px;
